@@ -31,10 +31,10 @@ h1,h2{
 }
 
 .navbar{
-    height: 10vh;
+    /* height: 10vh; */
     background-color: rgb(56, 57, 59);
     /* position: fixed; */
-    width: 100vw;
+    width: 100%;
 }
 
 .flex input[type=search]{
@@ -320,4 +320,17 @@ h1,h2{
   .navbar .flex {
     flex-direction: column;
   } */
+}
+@media(max-width: 1000px){
+  .items a{
+    font-size: 14px;
+  }
+  container {
+    padding: 0px;
+  }
+}
+@media(max-width: 900px){
+  .items a{
+    padding: 5px 19px;
+  }
 }
